@@ -14,6 +14,7 @@ public class Produto {
 	private String nome;
 	private double quantidade;
 	private double valor;
+	private String observacao;
 	
 	public Long getId() {
 		return id;
@@ -39,7 +40,11 @@ public class Produto {
 	public void setValor(double valor) {
 		this.valor = valor;
 	}
-
-	
+	public String getObservacao() {
+		return observacao;
+	}
+	public void setObservacao(String observacao) {
+		this.observacao = observacao;
+	}
 	
 }
