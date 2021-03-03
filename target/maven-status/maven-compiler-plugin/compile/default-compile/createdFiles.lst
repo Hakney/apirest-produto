@@ -1,0 +1,4 @@
+com\hakney\apirest\ApirestSpringApplication.class
+com\hakney\apirest\repository\ProdutoRepository.class
+com\hakney\apirest\models\Produto.class
+com\hakney\apirest\controllers\ProdutoController.class
