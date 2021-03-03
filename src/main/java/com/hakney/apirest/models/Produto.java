@@ -15,7 +15,8 @@ public class Produto {
 	private double quantidade;
 	private double valor;
 	private String observacao;
-	
+	private String teste;
+
 	public Long getId() {
 		return id;
 	}
@@ -47,4 +48,10 @@ public class Produto {
 		this.observacao = observacao;
 	}
 	
+	public String getTeste() {
+		return teste;
+	}
+	public void setTeste(String teste) {
+		this.teste = teste;
+	}
 }
