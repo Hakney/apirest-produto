@@ -41,7 +41,7 @@ public class ProdutoController {
 		return repository.save(produto);
 	}
 	
-	@PutMapping("/produto/{id}")
+	@PutMapping("/produto")
 	public Produto atualizarProduto(@RequestBody Produto produto) {
 		return repository.save(produto);
 	}
